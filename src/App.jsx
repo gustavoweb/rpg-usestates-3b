@@ -36,7 +36,7 @@ export default function App() {
           
           <h1>RPG useStates</h1>
           <div className="thumb"></div>
-          <p className='nome'></p>
+          <p className='nome'>Mago</p>
 
           <div className="status">
             <p>Status</p>
