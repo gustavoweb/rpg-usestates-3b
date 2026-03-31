@@ -36,20 +36,24 @@ export default function App() {
           
           <h1>RPG useStates</h1>
           <div className="thumb"></div>
-          <p className='nome'>Mago</p>
+          <input 
+            type="text" 
+            className='nome' 
+            placeholder='Nome do Herói'  
+          />
 
           <div className="status">
             <p>Status</p>
-            <span></span>
-            <p>Vivo</p>
-            <span></span>
+            <p>Vivo (boolean)</p>
+            <span>VIVO</span>
+            <span>true</span>
           </div>
 
-          <p>Pontos de vida (HP) 100/100</p>
+          <p id='pontosVida'>Pontos de vida (HP) 100/100</p>
           <div className="barra"></div>
 
-          <button>Receber Dano</button>
-          <button>Curar</button>
+          <button className='BTcura'>Receber Dano</button>
+          <button className='BTcura'>Curar</button>
           
           <div className="classes">
             <button>🧙‍♂️ Mago</button>
